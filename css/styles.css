@@ -1,4 +1,6 @@
 body {
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
 }
 
@@ -72,7 +74,7 @@ color:#2e2f42;
 .hero_title {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
@@ -124,7 +126,13 @@ font-weight: 400;
     background-color: #f4f4fd;
 }
 
+.team_list {
+    background-color: #FFFFFF
+}
+
 .team_title {
+    text-align: center;
+    text-transform: capitalize;
 font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -153,9 +161,11 @@ font-weight: 400;
 /* #region portfolio */
 
 .portfolio_title {
+    text-align: center;
+    text-transform: capitalize;
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
